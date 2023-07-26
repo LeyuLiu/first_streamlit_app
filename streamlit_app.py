@@ -6,6 +6,11 @@ from urllib.error import URLError
 
 streamlit.title('My parents new healthy diner')
 
+streamlit.json({'foo':['bar', ['lst2'], {'dic': 'value'}],'fu':['ba']})
+
+
+
+
 streamlit.header('Breakfast Menu')
 streamlit.text('🥣 Omega 3 & Blueberry Oatmeal')
 streamlit.text('🥗 Kale, Spinach & Rocket Smoothie')
